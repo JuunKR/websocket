@@ -1,6 +1,5 @@
 import express from "express";
 // import WebSocket from "ws"
-//hell wow!!!
 
 import http from "http";
 import { Server } from "socket.io";

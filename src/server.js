@@ -12,7 +12,7 @@ app.use("/public", express.static(__dirname + "/public"));
 app.get("/", (req, res) => res.render("home"));
 app.get("/*", (req, res) => res.render("home"));
 
-const handleListen = () => console.log(`Listening on http://localhost:3000`);
+const handleListen = () => console.log(`Listening on http://localhost:3937`);
 
 const httpServer = http.createServer(app);
 const wsServer = new Server(httpServer, {
@@ -104,4 +104,4 @@ wsServer.on("connection", (socket) => {
 //   });
 // });
 
-httpServer.listen(3000, handleListen);
+httpServer.listen(3937, handleListen);

@@ -1,10 +1,6 @@
 import express from "express";
-<<<<<<< HEAD
-// import WebSocket from "ws" test
-=======
 // import WebSocket from "ws"
 // perfect
->>>>>>> origin/dev
 import http from "http";
 import { Server } from "socket.io";
 import { instrument } from "@socket.io/admin-ui";
